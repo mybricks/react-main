@@ -11,7 +11,7 @@ export const staticApps = [
     name: "macro-app2",
     title: "微应用2",
     entry:
-      "https://my.mybricks.world/mfs/project/433644610379845/435325810839621/435325810839621.html",
+      "https://test.mybricks.world/mfs/app/pcpage/test/518210942595141.html",
     container: "#container",
     activeRule: "/static-app2",
   },
@@ -22,7 +22,7 @@ export const dynamicApps = [
     name: "dynamic-app1",
     title: "微应用3",
     entry:
-      "https://test.mybricks.world/mfs/app/pcpage/test/500238873010245.html",
+      "https://test.mybricks.world/mfs/app/pcpage/test/522192992931909.html",
     container: "#container2",
     activeRule: "/dynamic-app1",
   },
