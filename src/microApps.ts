@@ -35,3 +35,16 @@ export const dynamicApps = [
     activeRule: "/dynamic-app2",
   },
 ];
+
+export const subApps = [
+  {
+    name: "sub-app1",
+    title: "sub-app1",
+    activeRule: '/sub/app1'
+  },
+  {
+    name: "sub-app2",
+    title: "sub-app2",
+    activeRule: '/sub/app2'
+  }
+]

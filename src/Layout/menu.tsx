@@ -1,6 +1,6 @@
 import { Menu } from "antd";
 import { NavLink, useLocation } from "react-router-dom";
-import { staticApps, dynamicApps } from "../microApps";
+import { staticApps, dynamicApps, subApps } from "../microApps";
 
 const { Item } = Menu;
 
@@ -19,7 +19,7 @@ export default () => {
   };
   return (
     <Menu mode="vertical" selectedKeys={[pathname]}>
-      {renderMenu([{ title: 'home', activeRule: '/' }, ...staticApps, ...dynamicApps])}
+      {renderMenu([{ title: 'home', activeRule: '/' }, ...staticApps, ...dynamicApps, ...subApps])}
     </Menu>
   );
 };

@@ -16,7 +16,7 @@ const DynamicContainer = () => {
         { ...app, container: container.current },
         {
           sandbox: {
-            strictStyleIsolation: true
+            experimentalStyleIsolation: true
           }
         },
         {
